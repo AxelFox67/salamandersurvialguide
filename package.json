@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AxelFox67/salamandersurvialguide#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.4",
     "dotenv": "^16.0.1",
     "eslint": "^8.21.0",
