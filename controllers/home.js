@@ -17,4 +17,4 @@ const router = express.Router()
     res.render('home');
   });
 
-module.exports = router ;
+module.exports = router;
