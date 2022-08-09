@@ -13,8 +13,8 @@ const router = express.Router()
 //       }
 //   });
 
-  router.get('/', async (req, res) => {
+router.get('/', async (req, res) => {
     res.render('home');
-  });
+});
 
-module.exports = router ;
+module.exports = router;
