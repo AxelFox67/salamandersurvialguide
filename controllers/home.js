@@ -15,8 +15,8 @@ const withAuth = require('../utils/auth');
 //       }
 //   });
 
-router.get('/', async (req, res) => {
+  router.get('/', async (req, res) => {
     res.render('home');
-});
+  });
 
 module.exports = router;
