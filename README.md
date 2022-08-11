@@ -21,5 +21,4 @@ Please reach out to us by email!
 # Developers 
 - Nabhanh Kamaal
 - Lea Bryant 
-- Marquez Axel
-
+- Axel Marquez
