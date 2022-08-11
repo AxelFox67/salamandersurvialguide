@@ -1,6 +1,6 @@
 {
   "name": "salamandersurvialguide",
-  "description": "# Pupose  A survival guide to get through full stack developer bootcamp",
+  "description": "# Purpose  A survival guide to get through full stack developer bootcamp",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
