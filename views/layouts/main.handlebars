@@ -10,12 +10,12 @@
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
+  <div class="sidebar">
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
         <a href="/">Salamander Guide</a>
       </h1>
-      <nav>
+      <nav class="nav-item">
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">profile</a> |
@@ -25,14 +25,15 @@
         {{/if}}
       </nav>
     </header>
-    <main class="container container-fluid mt-5">
+  </div>
+    {{!-- <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
-    </main>
+    </main> --}}
     <footer>
       
     </footer>
-  </div>
+  
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
