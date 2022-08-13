@@ -12,33 +12,33 @@
 </head>
 
 <body>
-
+<Header>
 <div id="layout" >
   <div class="sidebar pure-u-md-1-4">
     <div class="header">
       <h1 class="brand-title">
         <a href="/">Salamander Guide</a></h1>
       <h2 class="brand-tagline">A space for all fullstack coding Bootcampers!</h2>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
+<nav class="nav">
 <!-- Conditionally render login or logout links -->
-            {{#if logged_in}}
-            <a href="/profile.handlebars">profile</a><button class="no-button" id="logout">logout</button>
-            {{else}}
-            <a class="pure-button" href="/login.handlebars">login</a>
-            {{/if}}
-          </li>
-          <li>
+        {{#if logged_in}}
+        <a href="/profile">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
+          {{!-- <li>
             <a href="#" class="pure-menu-link">Resources</a>   
           </li>
           <li>
             <a href="#" class="pure-menu-link">About Us</a>  
           </li>
       </ul>
-    </nav>
+    </nav> --}}
   </div>
 </div>
+</Header>
 <main>
     {{{body}}}
     <footer>
