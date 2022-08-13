@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Post, User } = require('../models');
+const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -38,10 +38,23 @@ router.get('/post/:id', async (req, res) => {
       ],
     });
 
+    // Get all comments and JOIN with user data
+    const commentData = await Comment.findAll({
+      include: [
+        {
+          model: User,
+          attributes: ['text'],
+        },
+      ],
+    });
+
+    // Serialize data so the template can read it
+    const comments = commentData.map((comment) => comment.get({ plain: true }));
     const post = postData.get({ plain: true });
 
     res.render('post', {
       ...post,
+      // comments,
       logged_in: req.session.logged_in
     });
   } catch (err) {
