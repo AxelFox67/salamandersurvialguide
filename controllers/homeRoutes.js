@@ -38,12 +38,20 @@ router.get('/post/:id', async (req, res) => {
       ],
     });
 
+    const id = req.params.id;
+    const commentData = await Comment.findAll({
+      where: {
+        post_Id: id
+      }
+    });;
+
     // Serialize data so the template can read it
+    const comments = commentData.map((comment) => comment.get({ plain: true }));
     const post = postData.get({ plain: true });
 
     res.render('post', {
       ...post,
-      // comments,
+      comments,
       logged_in: req.session.logged_in
     });
   } catch (err) {
