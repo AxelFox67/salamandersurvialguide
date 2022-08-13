@@ -24,6 +24,25 @@
 </div>
 <p>Created by {{user.name}} on {{format_date date_created}}</p>
 </section>
+{{!-- Comments section --}}
+<div class="comments">
+  <h3 class="dividing header">Comments</h3>
+{{!-- Past Comments --}}
+<div class="comment">
+    <div class="content">
+      <a class="author">Matt</a>
+      <div class="metadata">
+        <span class="date">Today at 5:42PM</span>
+      </div>
+      <div class="text">
+        How artistic!
+      </div>
+      <div class="actions">
+        <a class="reply">Reply</a>
+      </div>
+    </div>
+  </div>
+
 {{!-- To add and make comments to a post --}}
 <div class="comments-view"><div class="comments-holder">
 <a href="#" name="comments"></a>
