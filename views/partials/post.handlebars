@@ -13,12 +13,23 @@
         By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a> --}}
 {{!-- </p> --}}
 </header>
-
 <div class="post-description">
     <p>{{description}}</p>
 </div>
 <p>Created by {{user.name}} on {{format_date date_created}}</p>
 </section>
+{{!-- To add and make comments to a post --}}
+<div class="comments-view"><div class="comments-holder">
+<a href="#" name="comments"></a>
+			<div class="comments-form">
+						<div class="comment-icon circle-icon">
+						</div>
+						<div class="comment-form-field">
+							<textarea class="new-comment-text" name="comment" placeholder="Add a comment" data-notutorial="Add a comment" data-tutorial="press Enter to post and Shift+Enter for newline" data-action="comment"></textarea>
+						</div>
+			</div>
+			<button class="ui-button ui-button-cta comment" data-action="comment">Comment</button>
+	</div></div>
 </div>
 
 <div class="posts">
@@ -38,6 +49,19 @@
 </div>
 <p>Created by {{user.name}} on {{format_date date_created}}</p>
   </section>
+{{!-- To add and make comments to a post --}}
+  <div class="comments-view"><div class="comments-holder">
+<a href="#" name="comments"></a>
+			<div class="comments-form">
+						<div class="comment-icon circle-icon">
+						</div>
+						<div class="comment-form-field">
+							<textarea class="new-comment-text" name="comment" placeholder="Add a comment" data-notutorial="Add a comment" data-tutorial="press Enter to post and Shift+Enter for newline" data-action="comment"></textarea>
+						</div>
+			</div>
+			<button class="ui-button ui-button-cta comment" data-action="comment">Comment</button>
+	</div></div>
+</div>
 </div>
 
 <div class="footer">
