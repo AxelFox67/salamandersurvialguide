@@ -1,13 +1,12 @@
 const commentFormHandler = async (event) => {
     event.preventDefault();
 
-    const name = document.querySelector('#post-name').value.trim();
-    const comment = document.querySelector('#comment').value.trim();
+    const comment = document.querySelector('#comment-input').value.trim();
 
-    if (name && comment) {
-        const response = await fetch(`/api/post`, {
+    if (comment) {
+        const response = await fetch(`/api/comment`, {
           method: 'POST',
-          body: JSON.stringify({ name, comment }),
+          body: JSON.stringify({ comment }),
           headers: {
             'Content-Type': 'application/json',
           },
