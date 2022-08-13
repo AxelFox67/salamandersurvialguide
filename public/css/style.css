@@ -38,10 +38,11 @@ LAYOUT CSS */
   color: #fff;
 }
 
-.brand-title,
+/* .brand-title,
 .brand-tagline {
   margin: 0;
-}
+} */
+
 .brand-title {
   text-transform: uppercase;
 }
