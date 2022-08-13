@@ -38,18 +38,7 @@ router.get('/post/:id', async (req, res) => {
       ],
     });
 
-    // Get all comments and JOIN with user data
-    // const commentData = await Comment.findAll({
-    //   include: [
-    //     {
-    //       model: User,
-    //       attributes: ['text'],
-    //     },
-    //   ],
-    // });
-
-    // // Serialize data so the template can read it
-    // const comments = commentData.map((comment) => comment.get({ plain: true }));
+    // Serialize data so the template can read it
     const post = postData.get({ plain: true });
 
     res.render('post', {
