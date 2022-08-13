@@ -109,8 +109,11 @@ LAYOUT CSS */
   margin: 0;
 }
 .pure-form{
-  top: 50px;
-  left: 10px;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
 }
 .footer {
   padding: 1em 0;
