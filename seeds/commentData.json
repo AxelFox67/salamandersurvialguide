@@ -1,8 +1,14 @@
 [
     {
-      "text": "Jane"
+      "id": 1,
+      "text": "edrfsdfsdfsdfdsfdsfsdf",
+      "user_id": 1,
+      "post_id": 1
     },
     {
-        "text": "John"
+      "id": 2,
+      "text": "edrfsdfsdfsdfdsfdsfsdf",
+      "user_id": 2,
+      "post_id": 2
       }
 ]
