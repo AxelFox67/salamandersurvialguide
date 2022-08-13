@@ -12,81 +12,39 @@
 </head>
 
 <body>
-  <div id="layout" >
-    <div class="sidebar pure-u-md-1-4">
-        <div class="header">
-            <h1 class="brand-title">
-              <a href="/">Salamander Guide</a>
-              </h1>
-            <h2 class="brand-tagline">A space for all fullstack coding Bootcampers!</h2>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                       <!-- Conditionally render login or logout links -->
-                      {{#if logged_in}}
-                        <a href="/profile">profile</a> |
-                        <button class="no-button" id="logout">logout</button>
-                      {{else}}
-                      <a class="pure-button" href="/login">login</a>
-                      {{/if}}
-                    </li>
-                    <li>
-                      {{!-- <a href="/">Resources</a> | --}}
-                      <a href="#" class="pure-menu-link">Resources</a>   
-                    </li>
-                    <li>
-                      <a href="#" class="pure-menu-link">About Us</a>  
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="row">
-  <div class="col-md-6">
-    <h2>Login</h2>
 
-    <form class="pure-form pure-form-stacked">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
-      </div>
-      <div class="form-group">
-        <label for="password-login">password:</label>
-        <input class="form-input" type="password" id="password-login" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">login</button>
-      </div>
-    </form>
-  </div>
-  <div class="col-md-6">
-    <h2>Signup</h2>
-
-    <form class="form signup-form">
-      <div class="form-group">
-        <label for="name-signup">name:</label>
-        <input class="form-input" type="text" id="name-signup" />
-      </div>
-      <div class="form-group">
-        <label for="email-signup">email:</label>
-        <input class="form-input" type="text" id="email-signup" />
-      </div>
-      <div class="form-group">
-        <label for="password-signup">password:</label>
-        <input class="form-input" type="password" id="password-signup" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">signup</button>
-      </div>
-    </form>
+<div id="layout" >
+  <div class="sidebar pure-u-md-1-4">
+    <div class="header">
+      <h1 class="brand-title">
+        <a href="/">Salamander Guide</a></h1>
+      <h2 class="brand-tagline">A space for all fullstack coding Bootcampers!</h2>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+<!-- Conditionally render login or logout links -->
+            {{#if logged_in}}
+            <a href="/profile">profile</a><button class="no-button" id="logout">logout</button>
+            {{else}}
+            <a class="pure-button" href="/login">login</a>
+            {{/if}}
+          </li>
+          <li>
+            <a href="#" class="pure-menu-link">Resources</a>   
+          </li>
+          <li>
+            <a href="#" class="pure-menu-link">About Us</a>  
+          </li>
+      </ul>
+    </nav>
   </div>
 </div>
+<main>
     {{{body}}}
     <footer>
       
     </footer>
-  </div>
-
+</main>
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
