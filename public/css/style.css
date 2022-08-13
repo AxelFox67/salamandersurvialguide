@@ -38,6 +38,9 @@ LAYOUT CSS */
   color: #fff;
 }
 
+.row {
+  display: flexbox;
+}
 /* .brand-title,
 .brand-tagline {
   margin: 0;
