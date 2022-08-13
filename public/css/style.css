@@ -1,8 +1,8 @@
-/* * {
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-} */
+}
 
 a {
   text-decoration: none;
@@ -37,11 +37,6 @@ LAYOUT CSS */
   background: rgb(61, 79, 93);
   color: #fff;
 }
-
-/* .brand-title,
-.brand-tagline {
-  margin: 0;
-} */
 
 .brand-title {
   text-transform: uppercase;
