@@ -108,13 +108,13 @@ LAYOUT CSS */
   font-size: 90%;
   margin: 0;
 }
-.pure-form{
+main {
     float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
   }
-}
+
 .footer {
   padding: 1em 0;
 }
