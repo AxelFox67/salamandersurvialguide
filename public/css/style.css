@@ -156,6 +156,11 @@ LAYOUT CSS */
       text-align: right;
   }
 
+  .sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+  }
 
   .footer {
       text-align: center;
