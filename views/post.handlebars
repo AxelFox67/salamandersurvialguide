@@ -42,6 +42,24 @@
       </div>
     </div>
   </div>
+  <!-- Loop over each object in the projects array -->
+{{#each comments as |comment| }}
+<div class="comment">
+    <div class="content">
+      <a class="author">{{user.name}}</a>
+      <div class="metadata">
+        <span class="date">{{date_created}}</span>
+      </div>
+      <div class="text">
+        {{text}}
+      </div>
+      <div class="actions">
+        <a class="reply">Reply</a>
+      </div>
+    </div>
+  </div>
+{{/each}}
+
 
 {{!-- To add and make comments to a post --}}
 <div class="comments-view"><div class="comments-holder">
