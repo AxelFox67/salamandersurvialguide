@@ -119,22 +119,15 @@ h1 {
   line-height: 1.8em;
 }
 
-/* main {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  border: 3px solid #73AD21;
-  } */
-
 /* Footer Section  */
+
 .footer {
   padding: 1em 0;
-  background: black;
-  align-content: center;
 }
 .footer a {
   color: #ccc;
   font-size: 80%;
+  
 }
 /* .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
