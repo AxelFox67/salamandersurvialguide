@@ -17,7 +17,7 @@ h1, h2, h3 {
   font-weight: 100;
 }
 
-LAYOUT CSS */
+/* LAYOUT CSS */
 .pure-img-responsive {
   max-width: 100%;
   height: auto;
@@ -34,7 +34,7 @@ LAYOUT CSS */
 }
 
 .sidebar {
-  background: rgb(61, 79, 93);
+  background: rgb(0, 0, 0);
   color: #fff;
 }
 
@@ -67,7 +67,7 @@ LAYOUT CSS */
 }
 .nav-item a:hover,
 .nav-item a:focus {
-  border: 2px solid rgb(61, 146, 201);
+  border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
 }
 
