@@ -11,12 +11,13 @@
 </head>
 
 <body>
-<div id="layout" class="pure-g">
+{{!-- Sidebar --}}
+  <div id="layout" class="pure-g">
   <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
-            <h1 class="brand-title">A Sample Blog</h1>
-            <h2 class="brand-tagline">Creating a blog layout using Pure</h2>
-
+            <h1 class="brand-title">A Salamander Full Stack Guide</h1>
+            <h2 class="brand-tagline">Space for all Full Stack Bootcampers!</h2>
+{{!-- nav items --}}
   <nav class="nav">
       <ul class="nav-list">
           <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
@@ -31,13 +32,14 @@
       </nav>
     </div>
 </div>
+{{!-- Main body --}}
   <div class="content pure-u-1 pure-u-md-3-4">
     {{{body}}}
     <footer>
        <div class="pure-menu pure-menu-horizontal">
                     <ul>
-                        <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>
-                        <li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">GitHub</a></li>
+                        <li class="pure-menu-item"><a href="/" class="pure-menu-link">About Us</a></li>
+                        <li class="pure-menu-item"><a href="http://github.com/" class="pure-menu-link">GitHub</a></li>
                     </ul>
                 </div>
     </footer>
