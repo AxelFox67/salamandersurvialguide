@@ -22,28 +22,25 @@
 <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <button class="no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login">Login/Sign Up</a>
         {{/if}}
-      </nav>
-          <li>
-            <a href="#" class="pure-menu-link">Resources</a>   
-          </li>
-          <li>
-            <a href="#" class="pure-menu-link">About Us</a>  
-          </li>
-      </ul>
+        <a href="#" class="pure-menu-link">Resources</a>   
+        <a href="#" class="pure-menu-link">About Us</a>  
     </nav>
   </div>
 </div>
 </Header>
+
+<div class="content pure-u-1 pure-u-md-3-4">
 <main>
     {{{body}}}
     <footer>
       
     </footer>
 </main>
+</div>
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
