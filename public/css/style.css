@@ -4,44 +4,39 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(254, 254, 254);
-}
-a:hover,
-a:focus {
-  text-decoration: underline;
+/* Background */
+
+body {
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
 }
 
+/* login section */
 h3 {
-  font-weight: 100;
-}
-
-/* LAYOUT CSS */
-.pure-img-responsive {
-  max-width: 100%;
-  height: auto;
-}
-
-#layout {
-  padding: 0;
-}
-
-.header {
+  font-size: 25px;
+  color: white;
   text-align: center;
-  top: auto;
-  margin: 3em auto;
+  margin-right: auto;
 }
+
+.container { 
+  display: flex;
+  color: white;
+  box-sizing: border-box;
+	width: 50%;
+  margin-top: 6px;
+  padding: 40px;
+  background: rgb(0, 0, 0);
+  margin: auto;
+  }
+
+/* sidebar */
 
 .sidebar {
   background: rgb(0, 0, 0);
   color: #fff;
+  overflow:hidden;
 }
 
-.brand-title,
-.brand-tagline {
-  margin: 0;
-}
 .brand-title {
   text-transform: uppercase;
 }
@@ -57,7 +52,7 @@ h3 {
 }
 .nav-item {
   display: inline-block;
-  *display: inline;
+  display: inline;
   zoom: 1;
 }
 .nav-item a {
@@ -71,18 +66,25 @@ h3 {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-  border: 2px solid rgb(61, 146, 201);
+  border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  padding: 1em;
-  max-width: 30rem;
-  grid-auto-flow: inherit;
+a {
+  text-decoration: none;
+  color: rgb(116, 232, 142);
 }
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+/* Posts Sections */
+
 .content-subhead {
   text-transform: uppercase;
   color: #aaa;
@@ -99,10 +101,11 @@ h3 {
 
 .post {
   padding-bottom: 2em;
+  background: rgb(0, 0, 0);
 }
 .post-title {
   font-size: 2em;
-  color: #222;
+  color: rgb(255, 255, 255);
   margin-bottom: 0.2em;
 }
 .post-avatar {
@@ -115,31 +118,29 @@ h3 {
   color: #444;
   line-height: 1.8em;
 }
-.post-meta {
-  color: #999;
-  font-size: 90%;
-  margin: 0;
-}
 
-.post-category {
-  margin: 0 0.1em;
-  padding: 0.3em 1em;
-  color: #fff;
-  background: #999;
-  font-size: 80%;
-}
+/* main {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+  } */
 
+/* Footer Section  */
 .footer {
   padding: 1em 0;
+  background: black;
+  align-content: center;
 }
 .footer a {
   color: #ccc;
   font-size: 80%;
 }
-.footer .pure-menu a:hover,
+/* .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
-  background: none;
-}
+  background: black;
+} */
+
 
 @media (min-width: 48em) {
   .content {
