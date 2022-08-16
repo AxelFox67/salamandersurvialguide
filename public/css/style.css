@@ -16,10 +16,11 @@ body {
 .column {
   width: 70%;
   margin-top: 6px;
-  padding: 20px;
+  /* padding: 20px; */
   background: rgb(0, 0, 0);
   color: #fff;
   overflow:hidden;
+  resize: none;
 }
 
 h3 {
@@ -32,22 +33,12 @@ h3 {
 .container { 
   display: flex;
   color: white;
-  box-sizing: border-box;
-	width: 50%;
-  margin-top: 6px;
+	max-width: 50%;
   padding: 40px;
   background: rgb(0, 0, 0);
-  margin: auto;
   }
 
 /* sidebar */
-.container { 
-  display: flex;
-  box-sizing: border-box;
-	width: 500px;
-	padding: 20px;
-  }
-
 .sidebar {
   background: rgb(0, 0, 0);
   color: #fff;
@@ -151,8 +142,8 @@ h1 {
 @media (min-width: 48em) {
   .content {
       padding: 2em 3em 0;
-      /* margin-left: 25%; */
-  }
+      margin-left: 25%;}
+  
 
   .header {
       margin: 80% 2em 0;
