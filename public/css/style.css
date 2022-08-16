@@ -11,7 +11,6 @@ body {
 }
 
 /* login section */
-<<<<<<< HEAD
 
 .column {
   width: 70%;
@@ -22,11 +21,6 @@ body {
   overflow:hidden;
 }
 
-h3 {
-  text-align: center;
-  font-size: 25px;
-}
-=======
 h3 {
   font-size: 25px;
   color: white;
@@ -46,8 +40,6 @@ h3 {
   }
 
 /* sidebar */
->>>>>>> e56a978228e184f942d2977281104805a9bf40fc
-
 .container { 
   display: flex;
   justify-content:space-evenly;
@@ -55,8 +47,6 @@ h3 {
 	width: 500px;
 	padding: 20px;
   }
-
-/* sidebar */
 
 .sidebar {
   background: rgb(0, 0, 0);
@@ -94,33 +84,18 @@ h3 {
 .nav-item a:hover,
 .nav-item a:focus {
   border: 2px solid rgb(255, 255, 255);
-<<<<<<< HEAD
   text-decoration: none;
 }
 
 a {
-=======
->>>>>>> e56a978228e184f942d2977281104805a9bf40fc
   text-decoration: none;
-  color: rgb(116, 232, 142);
+  color: rgb(254, 254, 254);
 }
 a:hover,
 a:focus {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
-a {
-  text-decoration: none;
-  color: rgb(116, 232, 142);
-}
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
->>>>>>> e56a978228e184f942d2977281104805a9bf40fc
 h1 {
   font-weight: 100;
 }
@@ -161,17 +136,6 @@ h1 {
   line-height: 1.8em;
 }
 
-<<<<<<< HEAD
-/* main {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  border: 3px solid #73AD21;
-  } */
-=======
-/* Footer Section  */
->>>>>>> e56a978228e184f942d2977281104805a9bf40fc
-
 /* Footer Section  */
 .footer {
   padding: 1em 0;
@@ -181,15 +145,6 @@ h1 {
   font-size: 80%;
   
 }
-/* .footer .pure-menu a:hover,
-.footer .pure-menu a:focus {
-  background: black;
-<<<<<<< HEAD
-}
-=======
-} */
-
->>>>>>> e56a978228e184f942d2977281104805a9bf40fc
 
 
 @media (min-width: 48em) {
