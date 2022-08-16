@@ -31,24 +31,26 @@
           {{else}}
           <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Login/Sign Up</a></li>
           {{/if}}
+          <li id="logout" class="pure-menu-item"><a href="/logout" class="pure-menu-link">Logout</a></li>
         </ul>
     </nav>
 </div>
 {{!-- Main body --}}
-<div id="main">
-  <div class="content">
+<div class="content pure-u-1 pure-u-md-5-6">
+  <div id="main">
     {{{body}}}
-</div>
-</div>
+  </div>
 {{!-- footer --}}
     <footer>
-       <div class="footer pure-menu pure-menu-horizontal">
+       <div class="footer pure-menu-horizontal">
                     <ul>
                         <li class="footer pure-menu-item"><a href="/" class="pure-menu-link">About Us</a></li>
                         <li class="footer pure-menu-item"><a href="http://github.com/" class="pure-menu-link">GitHub</a></li>
                     </ul>
                 </div>
     </footer>
+  </div>
+  </div>
   </div>
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
