@@ -13,15 +13,13 @@
 </head>
 
 <body>
- <main>
+  <div id="layout">
 {{!-- Sidebar --}}
-  <div id="layout" class="pure-g">
   <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
-            <h1 class="brand-title">Team Salamander Full Stack Coding Bootcamp
-Survival Guide
-</h1>
-            <h2 class="brand-tagline">Space for all Full Stack Bootcampers!</h2>
+        <h2 class="brand-title">Team Salamander Bootcamp Survival Guide </h2>
+        <h1 class="brand-tagline">Space for all Full Stack Bootcampers!</h1> 
+    </div>
 {{!-- nav items --}}
   <nav class="nav">
       <ul class="nav-list">
@@ -34,13 +32,13 @@ Survival Guide
           <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Login/Sign Up</a></li>
           {{/if}}
         </ul>
-      </nav>
-    </div>
+    </nav>
 </div>
 {{!-- Main body --}}
-  <div class="content pure-u-1 pure-u-md-3-4">
+<div id="main">
+  <div class="content">
     {{{body}}}
-</main>
+</div>
 </div>
 {{!-- footer --}}
     <footer>
@@ -56,6 +54,7 @@ Survival Guide
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  </div>
 </body>
 </html>
 

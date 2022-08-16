@@ -4,15 +4,25 @@
   box-sizing: border-box;
 }
 
-/* Background */
+#layout {
+  position: relative;
+  left: 0;
+  padding-left: 0;
+}
+  #layout.active #menu {
+      left: 150px;
+      width: 150px;
+  }
 
+  #layout.active .menu-link {
+      left: 150px;
+  }
+
+/* Background */
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
 } 
-
-
 /* login section */
-
 .column {
   width: 70%;
   margin-top: 6px;
@@ -22,14 +32,12 @@ body {
   overflow:hidden;
   resize: none;
 }
-
 h3 {
   font-size: 25px;
   color: white;
   text-align: center;
   margin-right: auto;
 }
-
 .container { 
   display: flex;
   color: white;
@@ -37,7 +45,6 @@ h3 {
   padding: 40px;
   background: rgb(0, 0, 0);
   }
-
 /* sidebar */
 .sidebar {
   background: rgb(0, 0, 0);
@@ -46,7 +53,6 @@ h3 {
   justify-content:space-evenly;
   position: relative;
 }
-
 .brand-title {
   text-transform: uppercase;
 }
@@ -54,7 +60,6 @@ h3 {
   font-weight: 300;
   color: rgb(176, 202, 219);
 }
-
 .nav-list {
   margin: 0;
   padding: 0;
@@ -79,7 +84,6 @@ h3 {
   border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
 }
-
 a {
   text-decoration: none;
   color: rgb(254, 254, 254);
@@ -88,13 +92,36 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
-
 h1 {
   font-weight: 100;
 }
 
 /* Posts Sections */
+h2 {
+  font-size: 50px;
+}
+h3 {
+ font-size: 50px;
+}
+.col-auto{
+    text-align: center;  
+}
 
+.form-group{
+  color: white;
+  font-size: 40px;
+
+}
+
+#post-name {
+  font-size: 50px;
+  
+}
+
+.row {
+  background-color: rgb(0, 0, 0);
+  
+}
 .content-subhead {
   text-transform: uppercase;
   color: #aaa;
@@ -123,19 +150,23 @@ h1 {
   float: right;
   margin-left: 1em;
 }
+/* Profile */
+
 .post-description {
   font-family: Georgia, "Cambria", serif;
-  color: #444;
+  color: rgb(255, 255, 255);
   line-height: 1.8em;
+ ;
 }
 
 /* Footer Section  */
 .footer {
   padding: 1em 0;
 }
+
 .footer a {
   color: #ccc;
-  font-size: 80%;
+  font-size: 90%;
   
 }
 
@@ -156,7 +187,7 @@ h1 {
       bottom: 0;
   }
 
-  /* .footer {
+  .footer {
       text-align: center;
-  } */
+  }
 }
