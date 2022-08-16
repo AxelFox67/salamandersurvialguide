@@ -8,9 +8,20 @@
 
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
-}
+} 
+
 
 /* login section */
+
+.column {
+  width: 70%;
+  margin-top: 6px;
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  overflow:hidden;
+}
+
 h3 {
   font-size: 25px;
   color: white;
@@ -30,11 +41,19 @@ h3 {
   }
 
 /* sidebar */
+.container { 
+  display: flex;
+  box-sizing: border-box;
+	width: 500px;
+	padding: 20px;
+  }
 
 .sidebar {
   background: rgb(0, 0, 0);
   color: #fff;
   overflow:hidden;
+  justify-content:space-evenly;
+  position: relative;
 }
 
 .brand-title {
@@ -72,7 +91,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: rgb(116, 232, 142);
+  color: rgb(254, 254, 254);
 }
 a:hover,
 a:focus {
@@ -120,7 +139,6 @@ h1 {
 }
 
 /* Footer Section  */
-
 .footer {
   padding: 1em 0;
 }
@@ -129,16 +147,11 @@ h1 {
   font-size: 80%;
   
 }
-/* .footer .pure-menu a:hover,
-.footer .pure-menu a:focus {
-  background: black;
-} */
-
 
 @media (min-width: 48em) {
   .content {
       padding: 2em 3em 0;
-      margin-left: 25%;
+      /* margin-left: 25%; */
   }
 
   .header {
@@ -152,7 +165,7 @@ h1 {
       bottom: 0;
   }
 
-  .footer {
+  /* .footer {
       text-align: center;
-  }
+  } */
 }
