@@ -22,7 +22,6 @@
 /* Background */
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
- 
 } 
 
 /* login section */
@@ -166,10 +165,6 @@ p {
   letter-spacing: 0.1em;
 }
 
-.pure-form legend {
-  color: white;
-}
-
 .form-input {
   width: 100%;
   font-size: 15pt;
@@ -179,8 +174,7 @@ p {
   padding: 2em 1em 0;
 }
 
-.post,
-.lists {
+.posts, .lists, .post, .comment, .new-comment{
   padding-bottom: 2em;
   background: rgb(0, 0, 0);
 }
@@ -192,19 +186,34 @@ p {
   background-color: black;
 }
 
-/* .post-avatar {
->>>>>>> main
+.post-avatar {
   border-radius: 50px;
   float: right;
   margin-left: 1em;
 }
 
+.created{
+  float: right;
+  margin-left: 1em;
+}
+.comment {
+color: white;
+float: right;
+background-color: black;
+
+}
+.reply{
+  color: red;
+  float: right;
+}
 /* Profile */
 .profile {
   background: rgb(0, 0, 0);
   color: #fff;
 }
-
+.date {
+  font-size: small;
+}
 .post-description {
   font-family: Georgia, "Cambria", serif;
   color: rgb(255, 255, 255);
