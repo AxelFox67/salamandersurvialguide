@@ -47,7 +47,6 @@ h3, h2, h1 {
 .container { 
   display: flex;
   color: white;
-	max-width: 50%;
   padding: 40px;
   background: rgb(0, 0, 0);
   }
@@ -116,7 +115,6 @@ h1 {
 }
 .form-group{
   color: white;
-  font-size: 40px;
   background-color: black;
 }
 /* #post-name {
