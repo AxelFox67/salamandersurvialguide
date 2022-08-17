@@ -30,6 +30,7 @@ Survival Guide
   <!-- Conditionally render login or logout links -->
           {{#if logged_in}}
           <li class="pure-menu-item"><a href="/profile" class="pure-menu-link" >Profile</a></li>
+          <li class="pure-menu-item"><a href="/" class="pure-menu-link" id="logout" >logout</a></li>
           {{else}}
           <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Login/Sign Up</a></li>
           {{/if}}
