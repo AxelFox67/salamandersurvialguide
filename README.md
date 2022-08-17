@@ -1,4 +1,5 @@
 # A Salamander survival guide
+![SBlog website](./assets/images/SBlog.PNG "SBlog website")
 - A Full Stack Coding Boot Camp survival guide!
 
 # Application Description 
