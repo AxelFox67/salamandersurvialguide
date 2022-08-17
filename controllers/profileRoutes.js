@@ -7,4 +7,4 @@ router.get('/', async (req, res) => {
     res.render('profile');
 });
 
-module.exports = router ;
+module.exports = router;

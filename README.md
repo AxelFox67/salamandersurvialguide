@@ -5,10 +5,12 @@
 Interactive Full-Stack Application using Node.js, Express.js, Handlebars.js, MySQL to create a RESTful API. 
 
 # Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Visuals](#visuals)
+- [A Salamander survial guide](#a-salamander-survial-guide)
+- [Application Description](#application-description)
+- [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [Visuals](#visuals)
 - [Developers](#developers)
 
 ## Installation
