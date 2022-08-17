@@ -1,4 +1,4 @@
-<div class="posts">
+<div class="posts" data-postID="{{id}}">
     <h1 class="content-subhead">Check your Comments</h1>
         <header class="post-header"><img width="48" height="48" alt="Tilo Mitra's avatar" class="post-avatar" src="https://avatars.dicebear.com/api/bottts/:seed.svg"> 
         </header>
@@ -45,7 +45,7 @@
       {{!-- To add and make comments to a post --}}
 <div class="new-comment">
     <form>
-       <textarea id="" placeholder="Add Your Comment" value=" "></textarea>
+       <textarea id="comment-input" placeholder="Add Your Comment" value=" "></textarea>
        <div class="btn">
            <input id="submit" type="submit" value="Comment">
            <button id="submit">  
@@ -56,7 +56,7 @@
             </div>
           </div>
         </div>
-  <script src="/js/post.js"></script>
+  <script src="/js/comment.js"></script>
 
 
     
