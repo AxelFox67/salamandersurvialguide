@@ -13,15 +13,13 @@
 </head>
 
 <body>
- <main>
+  <div id="layout">
 {{!-- Sidebar --}}
-  <div id="layout" class="pure-g">
   <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
-            <h1 class="brand-title">Team Salamander Full Stack Coding Bootcamp
-Survival Guide
-</h1>
-            <h2 class="brand-tagline">Space for all Full Stack Bootcampers!</h2>
+        <h2 class="brand-title">Team Salamander Bootcamp Survival Guide </h2>
+        <h1 class="brand-tagline">Space for all Full Stack Bootcampers!</h1> 
+    </div>
 {{!-- nav items --}}
   <nav class="nav">
       <ul class="nav-list">
@@ -34,18 +32,18 @@ Survival Guide
           {{else}}
           <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Login/Sign Up</a></li>
           {{/if}}
+          <li id="logout" class="pure-menu-item"><a href="/logout" class="pure-menu-link">Logout</a></li>
         </ul>
-      </nav>
-    </div>
+    </nav>
 </div>
 {{!-- Main body --}}
-  <div class="content pure-u-1 pure-u-md-3-4">
+<div class="content pure-u-1 pure-u-md-5-6">
+  <div id="main">
     {{{body}}}
-</main>
-</div>
+  </div>
 {{!-- footer --}}
     <footer>
-       <div class="footer pure-menu pure-menu-horizontal">
+       <div class="footer pure-menu-horizontal">
                     <ul>
                         <li class="footer pure-menu-item"><a href="/" class="pure-menu-link">About Us</a></li>
                         <li class="footer pure-menu-item"><a href="http://github.com/" class="pure-menu-link">GitHub</a></li>
@@ -53,10 +51,13 @@ Survival Guide
                 </div>
     </footer>
   </div>
+  </div>
+  </div>
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  </div>
 </body>
 </html>
 
