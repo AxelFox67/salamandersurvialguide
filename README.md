@@ -48,10 +48,13 @@ To visit a copy of this application running on your computer.
 
 ## Contributing
 Please reach out to us by email!
+- Nabhanh Kamaal: Nabhahnk@gmail.com
+- Lea Bryant: ldbryant3220@gmail.com
+- Axel Marquez: axel25mr@gmail.com
 
 ## Visuals
 
 # Developers 
-- Nabhanh Kamaal
-- Lea Bryant 
-- Axel Marquez
+- [Nabhanh Kamaal](https://github.com/NabhahnK)
+- [Lea Bryant](https://github.com/LeaBryant)
+- [Axel Marquez](https://github.com/AxelFox67)
