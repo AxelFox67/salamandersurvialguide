@@ -29,17 +29,16 @@
 </div>
 <div id="list" class="pure-u-1">
   {{#if posts.length}}
+  <div class="col-md-6 post-list">
     <h3>Current posts:</h3>    
   {{#each posts as |post|}}
         <h3><a href="/post/{{post.id}}">{{post.title}}</a></h3>
         <button type="delete" class="button-error pure-button" data-id="{{post.id}}">DELETE</button>
-    <p>
     {{/each}}
-    </p>
-<p>
+  </div>
+  <script src="/js/profile.js"></script>
   {{/if}}
-  </p>
 </div>
 
-<script src="./js/profile.js"></script>
-<script src="./js/post.js"></script>
+
+<script src="/js/post.js"></script>

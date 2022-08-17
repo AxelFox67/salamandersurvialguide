@@ -1,5 +1,5 @@
-const newFormHandler = async (event) => {
-  event.preventDefault();
+// const newFormHandler = async (event) => {
+//   event.preventDefault();
 
   // const name = document.querySelector('#project-name').value.trim();
   // const comment = document.querySelector('#comment').value.trim();
@@ -42,4 +42,3 @@ const delButtonHandler = async (event) => {
 document
   .querySelector('.post-list')
   .addEventListener('click', delButtonHandler);
-}
