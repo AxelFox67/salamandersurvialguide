@@ -59,6 +59,8 @@ This images shows the post creation on the profile page.
 
 This one shows the login form.
 ![SBlog website](./assets/images/login.PNG "SBlog website")
+
+This is the sign up form.
 ![SBlog website](./assets/images/signup.PNG "SBlog website")
 
 # Developers 
