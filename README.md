@@ -54,9 +54,10 @@ Please reach out to us by email!
 - Axel Marquez: axel25mr@gmail.com
 
 ## Visuals
-![SBlog website](./assets/images/SBlog.PNG "SBlog website")
-![SBlog website](./assets/images/SBlog.PNG "SBlog website")
-![SBlog website](./assets/images/SBlog.PNG "SBlog website")
+
+![SBlog website](./assets/images/postcreation.PNG"SBlog website")
+![SBlog website](./assets/images/login.PNG "SBlog website")
+![SBlog website](./assets/images/signup.PNG "SBlog website")
 
 # Developers 
 - [Nabhanh Kamaal](https://github.com/NabhahnK)
