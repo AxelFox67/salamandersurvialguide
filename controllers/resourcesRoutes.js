@@ -6,4 +6,4 @@ router.get('/', async (req, res) => {
     res.render('resource');
 });
 
-module.exports = router ;
+module.exports = router;
