@@ -4,11 +4,13 @@ const homeRoutes = require('./homeRoutes');
 const profileRoutes = require('./profileRoutes');
 const commentRoutes = require('./commentRoutes');
 const resourceRoutes = require('./resourcesRoutes');
+const aboutusRoutes = require('./aboutusRoutes');
 
 router.use('/api', apiRoutes);
 router.use('/', homeRoutes);
 router.use('/profile', profileRoutes);
 router.use('/comment', commentRoutes);
 router.use('/resource', resourceRoutes);
+router.use('/about', aboutusRoutes);
 
 module.exports = router;
