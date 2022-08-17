@@ -14,6 +14,37 @@ Interactive Full-Stack Application using Node.js, Express.js, Handlebars.js, MyS
 - [Developers](#developers)
 
 ## Installation
+In a terminal run,
+
+```
+git clone git@github.com:AxelFox67/salamandersurvialguide.git
+```
+
+This will get you a local copy on your machine. Then type,
+
+```
+cd salamandersurvialguide
+```
+
+Press enter. After that type,
+
+```
+npm i
+```
+
+Your computer will gather all the dependencies for this application. You can then type, 
+
+```
+npm start
+```
+
+In your terminal to start a server running this application. In the browser you can type in, 
+
+```
+http://localhost:3001/
+```
+
+To visit a copy of this application running on your computer.
 
 ## Contributing
 Please reach out to us by email!
