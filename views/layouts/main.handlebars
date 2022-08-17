@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Salamander Survial Guide</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+    integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/base-min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">
@@ -14,42 +15,42 @@
 
 <body>
   <div id="layout">
-{{!-- Sidebar --}}
-  <div class="sidebar pure-u-1 pure-u-md-1-4">
-    <div class="header">
+    {{!-- Sidebar --}}
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="header">
         <h2 class="brand-title">Team Salamander Bootcamp Survival Guide </h2>
-        <h1 class="brand-tagline">Space for all Full Stack Bootcampers!</h1> 
-    </div>
-{{!-- nav items --}}
-  <nav class="nav">
-      <ul class="nav-list">
+        <h1 class="brand-tagline">Space for all Full Stack Bootcampers!</h1>
+      </div>
+      {{!-- nav items --}}
+      <nav class="nav">
+        <ul class="nav-list">
           <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
           <li class="pure-menu-item"><a href="/resource" class="pure-menu-link">Resources</a></li>
-  <!-- Conditionally render login or logout links -->
+          <!-- Conditionally render login or logout links -->
           {{#if logged_in}}
-          <li class="pure-menu-item"><a href="/profile" class="pure-menu-link" >Profile</a></li>
-          <li class="pure-menu-item"><a href="/" class="pure-menu-link" id="logout" >logout</a></li>
+          <li class="pure-menu-item"><a href="/profile" class="pure-menu-link">Profile</a></li>
+          <li class="pure-menu-item"><a href="/" class="pure-menu-link" id="logout">logout</a></li>
           {{else}}
           <li class="pure-menu-item"><a href="/login" class="pure-menu-link">Login/Sign Up</a></li>
           {{/if}}
         </ul>
-    </nav>
-</div>
-{{!-- Main body --}}
-<div class="content pure-u-1 pure-u-md-5-6">
-  <div id="main">
-    {{{body}}}
-  </div>
-{{!-- footer --}}
-    <footer>
-       <div class="footer pure-menu-horizontal">
-                    <ul>
-                        <li class="footer pure-menu-item"><a href="/" class="pure-menu-link">About Us</a></li>
-                        <li class="footer pure-menu-item"><a href="http://github.com/" class="pure-menu-link">GitHub</a></li>
-                    </ul>
-                </div>
-    </footer>
-  </div>
+      </nav>
+    </div>
+    {{!-- Main body --}}
+    <div class="content pure-u-1 pure-u-md-5-6">
+      <div id="main">
+        {{{body}}}
+      </div>
+      {{!-- footer --}}
+      <footer>
+        <div class="footer pure-menu-horizontal">
+          <ul>
+            <li class="footer pure-menu-item"><a href="/" class="pure-menu-link">About Us</a></li>
+            <li class="footer pure-menu-item"><a href="http://github.com/" class="pure-menu-link">GitHub</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </div>
   </div>
   <!-- Render script for logged in users only -->
@@ -58,7 +59,5 @@
   {{/if}}
   </div>
 </body>
+
 </html>
-
-
-
