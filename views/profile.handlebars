@@ -3,11 +3,11 @@
 <div class="pure-u-1">
     <form class="form new-post-form">
       <div class="form-group">
-        <label for="post-name">Post Topic</label>
+        <label for="post-name"></label>
         <input class="form-input" type="text" id="post-name" name="post-name" placeholder="Topic" />
       </div>
       <div class="form-group">
-        <label for="post-desc">Description</label>
+        <label for="post-desc"></label>
         <textarea class="form-input" id="post-desc" name="post-desc" placeholder="Express yourself!"></textarea>
       </div>
       <div class="form-group">
@@ -18,15 +18,16 @@
 <div id="list" class="pure-u-1">
   {{#if posts.length}}
   <div class="col-md-6 post-list">
-    <h3>Current posts:</h3>    
+    <h3>Current posts:</h3>  
+  
   {{#each posts as |post|}}
-        <h3><a href="/post/{{post.id}}">{{post.title}}</a></h3>
+        <h3><a href="/post/{{post.id}}">{{post.title}}</a></h3>  
+      
         <button type="delete" class="button-error pure-button" data-id="{{post.id}}">DELETE</button>
     {{/each}}
   </div>
   <script src="/js/profile.js"></script>
   {{/if}}
 </div>
-
 
 <script src="/js/post.js"></script>

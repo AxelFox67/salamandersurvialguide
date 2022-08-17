@@ -21,7 +21,9 @@
 /* Background */
 body {
   background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+ 
 } 
+
 /* login section */
 .column {
   width: 70%;
@@ -103,12 +105,18 @@ h1 {
 }
 
 /* Posts Sections */
+
+
 .content {
   margin: 0 auto;
   padding: 0 2em;
   max-width: 800px;
   margin-bottom: 50px;
   line-height: 1.6em;
+}
+.form {
+  margin: 2pt;
+  margin-top: auto;
 }
 .col-auto{
     text-align: center;  
@@ -117,10 +125,11 @@ h1 {
   color: white;
   background-color: black;
 }
-/* #post-name {
+
+.post-name {
   color: white;
-  background-color: black;
-} */
+  background-color: rgb(255, 255, 255);
+}
 /* .row {
   background-color: rgb(0, 0, 0);
   color: white;
@@ -140,9 +149,10 @@ h1 {
 color: white;
 }
 
-/* .pure-form .pure-input-1-4 {
-  width: 40%;
-} */
+.form-input {
+  width: 100%;
+  font-size: 15pt;
+}
 
 .content {
   padding: 2em 1em 0;
