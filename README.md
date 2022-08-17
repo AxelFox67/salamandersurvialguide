@@ -54,7 +54,7 @@ Please reach out to us by email!
 - Axel Marquez: axel25mr@gmail.com
 
 ## Visuals
-
+This images shows the post creation on the profile page.
 ![SBlog website](./assets/images/postcreation.PNG"SBlog website")
 ![SBlog website](./assets/images/login.PNG "SBlog website")
 ![SBlog website](./assets/images/signup.PNG "SBlog website")
