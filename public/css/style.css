@@ -58,9 +58,14 @@ h1 {
 
 .container {
   display: flex;
+  align-items: center;
   color: white;
-  padding: 40px;
+  /* padding: 40px; */
   background: rgb(0, 0, 0);
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: normal;
 }
 
 /* sidebar */
@@ -126,19 +131,16 @@ h1 {
 
 /* Posts Sections */
 .content {
-  margin: 0 auto;
-  padding: 0 2em;
+  /* margin: 0 auto;
+  padding: 0 2em; */
   max-width: 800px;
-  margin-bottom: 50px;
   line-height: 1.6em;
-  background-color: black;
+  /* background-color: black; */
   opacity: 80%;
   color: white;
 }
-.form {
-  margin: 2pt;
-  margin-top: auto;
-}
+.login-form .signup-form{
+box-sizing: content-box;}
 .col-auto{
     text-align: center;  
 }
@@ -176,7 +178,6 @@ p {
 
 .form-input {
   width: 100%;
-  font-size: 15pt;
 }
 
 .content {
