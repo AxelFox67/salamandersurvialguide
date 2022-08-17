@@ -56,6 +56,8 @@ Please reach out to us by email!
 ## Visuals
 This images shows the post creation on the profile page.
 ![SBlog website](./assets/images/postcreation.PNG"SBlog website")
+
+This one shows the login form.
 ![SBlog website](./assets/images/login.PNG "SBlog website")
 ![SBlog website](./assets/images/signup.PNG "SBlog website")
 
