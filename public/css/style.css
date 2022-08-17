@@ -21,8 +21,14 @@
 
 /* Background */
 body {
-  background-image: url("https://giphy.com/embed/SExu1NjbmGALSv5Bm2" )
+  background-image: url(https://media.giphy.com/media/eidlFWEMajNjzNEmqT/giphy-downsized-large.gif);
+  background-size: cover;
 } 
+
+img{
+  float: right;
+  opacity: 70%;
+}
 
 /* login section */
 .column {
@@ -125,6 +131,9 @@ h1 {
   max-width: 800px;
   margin-bottom: 50px;
   line-height: 1.6em;
+  background-color: black;
+  opacity: 80%;
+  color: white;
 }
 .form {
   margin: 2pt;
@@ -177,6 +186,8 @@ p {
 .posts, .lists, .post, .comment, .new-comment{
   padding-bottom: 2em;
   background: rgb(0, 0, 0);
+  opacity: 80%;
+  color: white;
 }
 
 .post-title {
@@ -198,7 +209,6 @@ p {
 }
 .comment {
 color: white;
-float: right;
 background-color: black;
 
 }
