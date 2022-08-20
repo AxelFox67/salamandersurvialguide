@@ -21,27 +21,10 @@
 
 /* Background */
 body {
-  background-image: url(https://media.giphy.com/media/eidlFWEMajNjzNEmqT/giphy-downsized-large.gif);
+  background-image: url(https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif);
   background-size: cover;
 } 
 
-img{
-  float: right;
-  opacity: 70%;
-}
-
-/* login section */
-.column {
-  width: 70%;
-  margin-top: 6px;
-  /* padding: 20px; */
-  background: rgb(0, 0, 0);
-  color: #fff;
-  overflow: hidden;
-  resize: none;
-}
-
-h3,
 h2,
 h1 {
   display: block;
@@ -74,7 +57,6 @@ h1 {
   color: #fff;
   overflow: hidden;
   justify-content: space-evenly;
-  position: relative;
   max-width: fit-content;
 }
 
@@ -106,7 +88,7 @@ h1 {
   margin-top: 1em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-size: 85%;
+  font-size: 25pt;
 }
 
 .nav-item a:hover,
@@ -114,10 +96,10 @@ h1 {
   border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
 }
-
 a {
   text-decoration: none;
   color: rgb(254, 254, 254);
+  font-size: 15pt;
 }
 
 a:hover,
@@ -128,148 +110,11 @@ a:focus {
 h1 {
   font-weight: 100;
 }
-
-/* Posts Sections */
-.content {
-  /* margin: 0 auto;
-  padding: 0 2em; */
-  max-width: 800px;
-  line-height: 1.6em;
-  /* background-color: black; */
-  opacity: 80%;
-  color: white;
-}
-.login-form .signup-form{
-box-sizing: content-box;}
-.col-auto{
-    text-align: center;  
-}
-
-.form-group {
-  color: white;
-  background-color: black;
-}
-
-.post-container{
-	/* max-width: 640px; */
-	margin: 30px auto;
-	background: rgb(0, 0, 0);
-	border-radius: 8px;
-	padding: 20px;
-}
-
-.post-name {
-  color: white;
-  background-color: black;
-}
-p {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  font-size: 20px;
-}
-.content-subhead {
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-  border-bottom: 1px solid #eee;
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-}
-
-.form-input {
-  width: 100%;
-}
-
-.content {
-  padding: 2em 1em 0;
-}
-
-.posts, .lists, .post, .comment, .new-comment{
-  padding-bottom: 2em;
-  background: rgb(0, 0, 0);
-  opacity: 80%;
-  color: white;
-}
-
-.post-title {
-  font-size: 25px;
-  color: rgb(255, 255, 255);
-  /* margin-bottom: 0.2em; */
-  background-color: black;
-}
-
-.post-avatar {
-  border-radius: 50px;
-  float: right;
-  margin-left: 1em;
-}
-
-.created{
-  float: right;
-  margin-left: 1em;
-}
-.comment {
-color: white;
-background-color: black;
-
-}
-.reply{
-  color: red;
-  float: right;
-}
-/* Profile */
-.profile {
-  background: rgb(0, 0, 0);
-  color: #fff;
-}
-.date {
-  font-size: small;
-}
-.post-description {
-  font-family: Georgia, "Cambria", serif;
-  color: rgb(255, 255, 255);
-  /* line-height: 1.8em; */
-}
-
-.button-error {
-  background: rgb(202, 60, 60);
-  /* this is a maroon */
-}
-
 /* Footer Section  */
-.footer {
-  padding: 1em 0;
-}
-
-.footer a {
-  color: #ccc;
-  font-size: 90%;
-
-}
-
-@media (min-width: 48em) {
-  .content {
-    padding: 2em 2em 0;
-    margin-left: 25%;
-  }
-
-  .header {
-    margin: 80% 2em 0;
-    text-align: right;
-  }
-
-  /* .content {
-    padding-left: 2em;
-    padding-right: 2em;
-} */
-  .sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-  }
-
   .footer {
-    text-align: center;
+    padding: 1em 0;
   }
-}
-
+  .footer a {
+    color: #ccc;
+    font-size: 90%;
+  }

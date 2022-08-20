@@ -12,18 +12,7 @@
             {{!-- Past Comments --}}
             <div class="comment">
               <h3>Comments</h3>
-                <a class="author">- Matt</a><div class="text">
-                  How artistic!
-                </div>
-                <div class="metadata">
-                  <span class="date">Today at 5:42PM</span>
-                </div>
-                <div class="actions">
-                  <a class="reply">Reply</a>
-                </div>
-              </div>
             </div>
-            <br>
             <!-- Loop over each object in the projects array -->
             {{#each comments as |comment| }}
             <div class="comment">
@@ -43,6 +32,8 @@
             {{/each}}
             {{!-- Comments section --}}
       {{!-- To add and make comments to a post --}}
+      <br>
+
 <div class="new-comment">
     <form>
        <textarea id="comment-input" placeholder="Add Your Comment" value=" "></textarea>
